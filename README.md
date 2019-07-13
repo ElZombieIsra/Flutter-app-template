@@ -1,16 +1,13 @@
-# flutter_app_template
+# Flutter app template
 
-A new Flutter project.
+Flutter template that use my prefered architecture to start every app created in flutter.
 
-## Getting Started
+This project will be updated frequently with architecture modifications
 
-This project is a starting point for a Flutter application.
+## How to use
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Create a new Flutter app with ``` Flutter create <APP_NAME> ```
+2. Clone this repo with ``` git clone https://github.com/ElZombieIsra/Flutter-app-template.git ```
+3. Delete __lib__ folder in the new flutter app
+4. Copy and paste __lib__ folder from *flutter_app_template*
+5. run ```flutter run```
