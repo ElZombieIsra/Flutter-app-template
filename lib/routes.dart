@@ -4,6 +4,10 @@ import 'package:flutter/material.dart';
 import 'screens/HomeScreen.dart';
 
 // Give a route and link it to your screen class
-Map<String, WidgetBuilder> routes = {    
-  "/": (BuildContext context) => HomeScreen(),
+Map<String, WidgetBuilder> routes = {
+  RoutesNames.main: (BuildContext context) => HomeScreen(),
 };
+
+class RoutesNames {
+  static String main = "/";
+}

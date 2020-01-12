@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../globals.dart';
+import '../globals.dart' as globals;
 
 class HomeScreen extends StatefulWidget {
   @override
@@ -11,7 +11,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(title),
+        title: Text(globals.title),
       ),
       body: Center(
         child: Text('Hello World!'),
